@@ -1,6 +1,6 @@
 pipeline:
-    name: nginx
-    identifier: nginx
+    name: nginx-test-git
+    identifier: nginx-test-git
     projectIdentifier: GitExp
     orgIdentifier: CSE
     tags: {}
