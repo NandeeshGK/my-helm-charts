@@ -35,4 +35,19 @@ pipeline:
                                         - test-ng
                                 timeout: 10m
                                 failureStrategies: []
+                          - step:
+                                type: ShellScript
+                                name: test-1
+                                identifier: test1
+                                spec:
+                                    shell: Bash
+                                    onDelegate: true
+                                    source:
+                                        type: Inline
+                                        spec:
+                                            script: echo "test"
+                                    environmentVariables: []
+                                    outputVariables: []
+                                    executionTarget: {}
+                                timeout: 10m
               tags: {}
