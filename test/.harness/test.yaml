@@ -1,0 +1,35 @@
+pipeline:
+    name: test
+    identifier: test
+    projectIdentifier: test
+    orgIdentifier: CSE
+    storeType: ""
+    remoteType: create
+    tags: {}
+    stages:
+        - stage:
+              name: test
+              identifier: test
+              description: ""
+              type: Approval
+              spec:
+                  execution:
+                      steps:
+                          - step:
+                                type: ShellScript
+                                name: test
+                                identifier: test
+                                spec:
+                                    shell: Bash
+                                    onDelegate: true
+                                    source:
+                                        type: Inline
+                                        spec:
+                                            script: |-
+                                                echo "Hi"
+                                                date
+                                    environmentVariables: []
+                                    outputVariables: []
+                                    executionTarget: {}
+                                timeout: 10m
+              tags: {}
