@@ -31,7 +31,7 @@ pipeline:
                                                 echo <+variable.org.examplevariablesorg>
                                                 echo <+variable.examplevariablesproject>
                                                 echo <+pipeline.stages.test.name>
-                                                echo <+pipeline.stages.test.step.test.spec.shell>
+                                                echo <+pipeline.stages.test.spec.execution.steps.test.spec.source.spec.script>
                                     environmentVariables: []
                                     outputVariables: []
                                     executionTarget: {}
