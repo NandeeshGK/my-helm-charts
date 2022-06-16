@@ -30,7 +30,7 @@ pipeline:
                                                 echo <+variable.account.examplevariables>
                                                 echo <+variable.org.examplevariablesorg>
                                                 echo <+variable.examplevariablesproject>
-                                                echo <+pipeline.stages.stage.name>
+                                                echo <+pipeline.stages.stage.type>
                                     environmentVariables: []
                                     outputVariables: []
                                     executionTarget: {}
