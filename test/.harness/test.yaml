@@ -26,11 +26,11 @@ pipeline:
                                         type: Inline
                                         spec:
                                             script: |-
-                                                echo "Hi"
                                                 date
                                                 echo <+variable.account.examplevariables>
                                                 echo <+variable.org.examplevariablesorg>
                                                 echo <+variable.examplevariablesproject>
+                                                echo <+pipeline.stages.stage.name>
                                     environmentVariables: []
                                     outputVariables: []
                                     executionTarget: {}
