@@ -1,0 +1,22 @@
+{
+  "name": "@nandeeshgk/my-helm-charts",
+  "version": "1.0.0",
+  "description": "my-helm-charts checking trigger",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NandeeshGK/my-helm-charts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NandeeshGK/my-helm-charts/issues"
+  },
+  "homepage": "https://github.com/NandeeshGK/my-helm-charts#readme"
+}
